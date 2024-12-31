@@ -332,11 +332,14 @@ a{
   }
 
   .page-header{
-    color:orangered;
+    color:black;
     font-size:90px;
-    /* text-align:right; */
-    right: 10%;
     font-style:italic ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align:right; */
+    /* right: 10%; */
     /* padding-top:30px; */
   }
   .project-container{
@@ -592,8 +595,9 @@ a{
 
 .contactus-heading{
         font-size: 5em;
-        color: orangered;
+        color:black;
         padding-top: 2rem;
+        font-style: italic;
 
 }
 
